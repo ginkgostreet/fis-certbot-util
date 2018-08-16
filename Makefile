@@ -13,6 +13,7 @@ help:
 
 site-list:
 	@ls /var/www/prod.israelscouts.org/htdocs/sites -1 | grep .org | sort | sed s/.israelscouts.org// > $@
+	@ echo connect2 >> $@
 
 define generate_urls
 	for site in `cat site-list`; \
