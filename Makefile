@@ -6,6 +6,7 @@ help:
 	#
 	# Of primary interest:
 	# - refresh - will generate dev, stage, and prod files that list all of the sites in htdocs/sites for that environment
+	# - clean - will delete generated files
 	#
 	# TIP:
 	# if a host doesn't have a DNS entry, do a `make lists`
